@@ -1,10 +1,10 @@
-exports.default = function (filePath) {
+exports.default = function (cb, filePath) {
     try {
         const Transpiler = require("./dist/Transpiler").default;
 
         Transpiler.transpile(filePath);
-        return "";
+        cb(null, "");
     } catch(e) {        
-        return e.stack ? e.stack : e.toString()
+        cb(e.stack ? e.stack : e.toString());
     }
 }
