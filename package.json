@@ -1,0 +1,25 @@
+{
+  "name": "@web-atoms/es6-to-es5",
+  "version": "1.0.0",
+  "description": "ES6 JavaScript to ES5 using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-atoms/es6-to-es5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-atoms/es6-to-es5/issues"
+  },
+  "homepage": "https://github.com/web-atoms/es6-to-es5#readme",
+  "dependencies": {
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10"
+  }
+}
