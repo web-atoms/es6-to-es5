@@ -1,6 +1,6 @@
 {
   "name": "@web-atoms/es6-to-es5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 JavaScript to ES5 using TypeScript",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,9 @@
   "dependencies": {
     "typescript": "^4.1.2"
   },
-  "bundledDependencies": ["typescript"],
+  "bundledDependencies": [
+    "typescript"
+  ],
   "devDependencies": {
     "@types/node": "^14.14.10"
   }
