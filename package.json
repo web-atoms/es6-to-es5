@@ -1,6 +1,6 @@
 {
   "name": "@web-atoms/es6-to-es5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES6 JavaScript to ES5 using TypeScript",
   "main": "index.js",
   "scripts": {
